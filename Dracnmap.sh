@@ -203,7 +203,7 @@ function scanoutput() {
         			fi
         			echo -n -e "  Back to Last Menu? ( Yes / No ) :"
        			read back
-       			if [ $back != 'n' ] && [ $back != 'N' ]
+       			if [ $back != 'n' ] && [ $back != 'N' ] && [ $back != 'no' ] && [ $back != 'NO' ]
        					then
        					clear
        					menu
@@ -393,7 +393,7 @@ echo "                                                   ";
                echo ""
                echo -n -e $red " Back to Last Menu? ( Yes / No ) :"
              read back
-             if [ $back != 'n' ] && [ $back != 'N' ]
+             if [ $back != 'n' ] && [ $back != 'N' ] && [ $back != 'no' ] && [ $back != 'NO' ]
                  then
                  clear
                  menu
@@ -489,7 +489,7 @@ function pingbebeb() {
               echo ""
         			echo -n -e $cyan " Back to Last Menu? ( Yes / No ) :"
        			read back
-       			if [ $back != 'n' ] && [ $back != 'N' ]
+       			if [ $back != 'n' ] && [ $back != 'N' ] && [ $back != 'no' ] && [ $back != 'NO' ]
        					then
        					clear
        					menu
@@ -592,7 +592,7 @@ echo ""
      			  echo ""
      			  echo -n -e $red " Back to Last Menu? ( Yes / No ) :"
      			read back
-     			if [ $back != 'n' ] && [ $back != 'N' ]
+     			if [ $back != 'n' ] && [ $back != 'N' ] && [ $back != 'no' ] && [ $back != 'NO' ]
      			    then
      			    clear
      			    menu
@@ -691,7 +691,7 @@ echo ""
       echo ""
       echo -n -e $red " Back to Last Menu? ( Yes / No ) :"
     read back
-    if [ $back != 'n' ] && [ $back != 'N' ]
+    if [ $back != 'n' ] && [ $back != 'N' ] && [ $back != 'no' ] && [ $back != 'NO' ]
         then
         clear
         menu
@@ -863,7 +863,7 @@ echo -e $okegreen"    ========================================================= 
 			fi
 			echo -n -e "  Do you want exit? ( Yes / No ) :"
 			read back
-			if [ $back != 'n' ] && [ $back != 'N' ]
+			if [ $back != 'n' ] && [ $back != 'N' ] && [ $back != 'no' ] && [ $back != 'NO' ]
 					then
 					clear
 					exit
@@ -1003,7 +1003,7 @@ echo -e $okegreen"    ========================================================= 
 			fi
 			echo -n -e "  Do you want exit? ( Yes / No ) :"
 			read back
-			if [ $back != 'n' ] && [ $back != 'N' ]
+			if [ $back != 'n' ] && [ $back != 'N' ] && [ $back != 'no' ] && [ $back != 'NO' ]
 					then
 					clear
 					exit
